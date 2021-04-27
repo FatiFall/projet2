@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style1.css">
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <!--===============Link Google fonts===============-->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,10 +19,7 @@
     <!--ELODIE-->
       <body>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+    
     <header>
 
 <!--HEADER >Bannière Navigation -->
@@ -33,10 +31,10 @@
             <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0 ">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link pl-0 " href="about">À PROPOS</a>
+                        <a class="nav-link pl-0 " href="#">ACCUEIL</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">MON UNIVERS</a>
+                        <a class="nav-link" href="#">A PROPOS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">GALERIE</a>
@@ -53,9 +51,9 @@
                     <li class="nav-item"><a class="nav-link" href="https://github.com/"><i class="fa fa-github fa-2x"></i></a></li>
                     <li class="nav-item"><a class="nav-link" href="http://facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a></li>
                     <li class="nav-item"><a class="nav-link" href="http://behance.net"><i class="fa fa-behance-square fa-2x"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="http://instagram.com/"><i class="fa fa-instagram-square fa-2x"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
                     <li class="nav-item"><a class="nav-link" href="http://linkedin.com/"><i class="fa fa-linkedin fa-2x"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="http://dribbble.com/"><i class="fa fa-dribbble-square fa-2x"></i></a></li>    
+                    <li class="nav-item"><a class="nav-link" href="http://dribbble.com/"><i class="fab fa-dribbble fa-2x"></i></a></li>    
             </div>
                 </ul>
             </div>
@@ -70,45 +68,27 @@
         
             <div class="row ">
 <!--HEADER > Bannière image-->
-                <div class="col-md-6 col-sm-12">
-                    <img src="assets/img2/headerBryan.png" alt="homme" >
+                <div class="col-md-6 col-sm-12 display-block-none">
+                   
+                    
+                    <img id="bryanKany" src="assets/img2/headerBryan.png" style="float:left" width="70%" height="100%" min-width="0%" alt="homme">
+                     
                 </div>
 <!--HEADER >Bannière texte -->
-                <div class="col-md-6 pt-5 mt-5  text-white col-sm-12 pt-5 mt-5">
-                    <h1 class="display-2 text-center pt-5 mt-5 ">Artiste Illustrateur</h1>
-                    <h2 id="bryanK" class="display-4 text-center pt-5 mt-5"> Bryan Kany</h2>
+                <div class="col-md-6 pt-5 col-sm-12 text-white">
+                
+                    <h1 class="display-2 text-center pt-5 mt-5 " >Artiste Illustrateur</h1>
+                    <h2 id="bryanK" class="display-4 text-center pt-5 "> Bryan Kany</h2>
                 </div>
             </div>
-    </header>
-
-        <main>
-            <div class="about-me container pt-5">
-                <div class="section-title col-md-12 text-center">
-                <h2 class="text-black display-4">À PROPOS</h2>
-                </div>
-            <div class="row pt-5">
-            <div class="col-md-12 justify-content-start text-black">
-            <p class="mx-5 display-4"> Je suis</p>
-            <h3 class="mx-3 display-4 text-danger">Bryan Kany</h3>
-            
-            </div>  
-          
-        </div>  
-        </div>
-          
-<div class="contenair">
-
+     </header>
     
-            <div class="row pt-5 justify-content-end">
-               
-                <div class="col-md-4  justify-content-end">
-                <img src="assets/img2/pp-img-1.jpeg" class="img-fluid" alt="photo de profil">
-                <div class="col-md-8  text-black">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ex alias molestiae consectetur incidunt non magnam, eaque laboriosam veritatis sunt nemo consequuntur voluptates distinctio quos quasi, aut explicabo ipsam rem!</p>
-            
-            </div>
-           
-        </div>
-    </div>
-    </div>
-    </main>
+   <footer>  
+   </footer>  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+      </body>
+</html> 
+
+      
