@@ -5,122 +5,403 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
-     <!--===============Link Google fonts===============-->
-     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-     <!--===============Script fontawesome===============-->
-     <script src="https://kit.fontawesome.com/d38cea82af.js" crossorigin="anonymous"></script>
-     <!--===============Link Bootstrap===============-->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!--===============Link Google fonts===============-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--===============Link Bootstrap===================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <!--===============Script fontawesome===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!--===============Link CSS=========================-->
+    <link rel="stylesheet" href="../projet2/assets/css/styleGalerie.css">
     <title>Bankno Header</title>
 </head>
+
 <body>
-
-<div class="container-fluid bg-secondary text-white p-4">
-    <div class="row p-4">
-        <div class="col-md-12 text-center p-4">
-            <h1 class="display-1">Galerie</h1>
-            <blockquote class="blockquote">
-                <p>Uniques, originales, voici quelques-unes de mes créations, représentatives de mon univers et ma personnalité.</p>
-            </blockquote>
-        </div>
-    </div>  
-    <div class="row">
-        <div class="col-md-4 text-center">
-            <figure class="figure">
-                <img src="assets/img/1-300.jpg" class="figure-img img-fluid rounded" alt="illustration vectorielle Beach Hat">
-                <figcaption class="figure-caption text-center text-white display-3">BEACH HAT</figcaption>
-              </figure>
-        </div>
-        <div class="col-md-4 text-center">
-            <figure class="figure">
-                <img src="assets/img/2-300.jpg" class="figure-img img-fluid rounded" alt="illustration vectorielle Cat Walker">
-                <figcaption class="figure-caption text-center text-white display-3">CAT WALKER</figcaption>
-              </figure>
-        </div>
-        <div class="col-md-4 text-center">
-            <figure class="figure">
-                <img src="assets/img/3-300.jpg" class="figure-img img-fluid rounded" alt="illustration vectorielle Women Healthcare">
-                <figcaption class="figure-caption text-center text-white display-3">WOMEN HEALTHCARE</figcaption>
-              </figure>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4 text-center">
-            <figure class="figure">
-                <img src="assets/img/4-300.jpg" class="figure-img img-fluid rounded" alt="illustration vectorielle Mental Health">
-                <figcaption class="figure-caption text-center text-white display-3">MENTAL HEALTH</figcaption>
-              </figure>
-        </div>
-        <div class="col-md-4 text-center">
-            <figure class="figure">
-                <img src="assets/img/5-300.jpg" class="figure-img img-fluid rounded" alt="illustration vectorielle Culture Trip">
-                <figcaption class="figure-caption text-center text-white display-3">CULTURE TRIP</figcaption>
-              </figure>
-        </div>
-        <div class="col-md-4 text-center">
-            <figure class="figure">
-                <img src="assets/img/6-300.jpg" class="figure-img img-fluid rounded" alt="illustration vectorielle Oriental Style">
-                <figcaption class="figure-caption text-center text-white display-3">ORIENTAL STYLE</figcaption>
-              </figure>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4 text-center">
-            <figure class="figure">
-                <img src="assets/img/7-300.jpg" class="figure-img img-fluid rounded" alt="illustration vectorielle Marathonian">
-                <figcaption class="figure-caption text-center text-white display-3">MARATHONIAN</figcaption>
-              </figure>
-        </div>
-        <div class="col-md-4 text-center">
-            <figure class="figure">
-                <img src="assets/img/8-300.jpg" class="figure-img img-fluid rounded" alt="illustration vectorielle Fingerlakes Winter">
-                <figcaption class="figure-caption text-center text-white display-3">FINGERLAKES WINTER</figcaption>
-              </figure>
-        </div>
-        <div class="col-md-4 text-center">
-            <figure class="figure">
-                <img src="assets/img/9-300.jpg" class="figure-img img-fluid rounded" alt="illustration vectorielle Sunday Workout">
-                <figcaption class="figure-caption text-center text-white display-3">SUNDAY WORKOUT</figcaption>
-              </figure>
-        </div>
-    </div>
-<!--====================================================
-    <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="assets/img/1-300.jpg" alt="illustration vectorielle Beach Hat">
-          <div class="card-body">
-            <h5 class="card-title">BEACH HATE</h5>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-md justify-content-between">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0 ">
+              <ul class="navbar-nav">
+                  <li class="nav-item active">
+                      <a class="nav-link pl-0 " href="#">ACCUEIL</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">À PROPOS</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">GALERIE</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">CONTACT</a>
+                  </li>
+              </ul>
           </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+              <a href="#" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25 "><img src="assets/img2/Bankno-blanc.png" width="60%" ></a>
+          <div class="navbar-collapse collapse dual-nav w-50 order-2">
+              <ul class="nav navbar-nav ml-auto" >
+                  <li class="nav-item"><a class="nav-link" href="https://twitter.com/home"><i class="fab fa-twitter fa-2x"></i></a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://github.com/"><i class="fab fa-github fa-2x"></i></a></li>
+                  <li class="nav-item"><a class="nav-link" href="http://facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                  <li class="nav-item"><a class="nav-link" href="http://behance.net"><i class="fab fa-behance-square fa-2x"></i></a></li>
+                  <li class="nav-item"><a class="nav-link" href="http://instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
+                  <li class="nav-item"><a class="nav-link" href="http://linkedin.com/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                  <li class="nav-item"><a class="nav-link" href="http://dribbble.com/"><i class="fab fa-dribbble fa-2x"></i></a></li>    
           </div>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</header>
+
+<section class="container-fluid bg-dark text-white">
+  <div class="row">
+      <div class="col-md-12 text-center">
+          <h1>GALERIE</h1>
+          <p>Uniques, originales, voici quelques-unes de mes créations, représentatives de mon univers et ma personnalité.</p>
+      </div>
+  </div>  
+
+  <div class="row px-4 mx-4">
+    <div class="col-md-4 text-center">
+      <div class="container d-flex justify-content-center align-items-center">
+        <img src="assets/img2/1-300.jpg" alt="illustration vectorielle Beach Hat" class="image">
+        <div class="overlay d-flex justify-content-center align-items-center">
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalBeachHat">
+            En savoir plus
+          </button>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <h2 class="my-4">BEACH HAT</h2>
+
+    <div class="modal fade" id="modalBeachHat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-dark" id="exampleModalLabel">Beach Hat</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+          <div class="modal-body d-flex">
+            <div class="d-inline p-2">
+              <img src="assets/img2/1-300-hover.jpg">
+            </div>
+            <div class="d-inline p-2 text-dark">
+              <p class="smallText"><span class="saut"><span class="bold">Date :</span>  26/04/2018</span>
+                <span class="saut"><span class="bold">Technique :</span> illustration vectorielle</span>
+                <span class="saut"><span class="bold">Format :</span> 300px x 300px</span>
+                <span class="saut"><span class="bold">Commentaire :</span> Volonté de restranscrire l'ambiance de l'été en décomposant les formes et les couleurs afin construire une image graphique d'après des croquis d'observation.</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-</div>
-====================================================-->
+    </div>
+    </div>
+    <div class="col-md-4 text-center">
+        <div class="container d-flex justify-content-center align-items-center">
+          <img src="assets/img2/2-300.jpg" alt="illustration vectorielle Cat Walker" class="image">
+          <div class="overlay d-flex justify-content-center align-items-center">
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalCatWalker">
+              En savoir plus
+            </button>
+          </div>
+        </div>
+        <h2 class="my-4">CAT WALKER</h2>
+
+      <div class="modal fade" id="modalCatWalker" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title text-dark" id="exampleModalLabel">Cat Walker</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body d-flex">
+              <div class="d-inline p-2">
+                <img src="assets/img2/2-300-hover.jpg">
+              </div>
+              <div class="d-inline p-2 text-dark">
+                <p class="smallText"><span class="saut"><span class="bold">Date :</span>  13/05/2018</span>
+                  <span class="saut"><span class="bold">Technique :</span> illustration vectorielle</span>
+                  <span class="saut"><span class="bold">Format :</span> 300px x 300px</span>
+                  <span class="saut"><span class="bold">Commentaire :</span> Illustration pour la campagne de publicité Chanel du moment. Légèreté et frivolité pour maitre-mots</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 text-center">
+      <div class="container d-flex justify-content-center align-items-center">
+        <img src="assets/img2/3-300.jpg" alt="illustration vectorielle Cat Walker" class="image">
+        <div class="overlay d-flex justify-content-center align-items-center">
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalWomenHealthcare">
+            En savoir plus
+          </button>
+        </div>
+      </div>
+      <h2 class="my-4">WOMEN HEALTHCARE</h2>
+
+    <div class="modal fade" id="modalWomenHealthcare" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-dark" id="exampleModalLabel">Women Healthcare</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="d-inline p-2">
+              <img src="assets/img2/3-300-hover.jpg">
+            </div>
+            <div class="d-inline p-2 text-dark">
+              <p class="smallText"><span class="saut"><span class="bold">Date :</span>  07/06/2018</span>
+                <span class="saut"><span class="bold">Technique :</span> illustration vectorielle</span>
+                <span class="saut"><span class="bold">Format :</span> 300px x 300px</span>
+                <span class="saut"><span class="bold">Commentaire :</span> En collaboration avec le CHU de Rouen, hommage et soutien aux femmes qui se dévouent à leur métier. Illustration utilisée pour un post lors de la journée des droits de la femme.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="row px-4 mx-4">
+    <div class="col-md-4 text-center">
+      <div class="container d-flex justify-content-center align-items-center">
+        <img src="assets/img2/4-300.jpg" alt="illustration vectorielle Mental Health" class="image">
+        <div class="overlay d-flex justify-content-center align-items-center">
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalMentalHealth">
+            En savoir plus
+          </button>
+        </div>
+      </div>
+      <h2 class="my-4">MENTAL HEALTH</h2>
+
+    <div class="modal fade" id="modalMentalHealth" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-dark" id="exampleModalLabel">Mental Health</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="d-inline p-2">
+              <img src="assets/img2/4-300-hover.jpg">
+            </div>
+            <div class="d-inline p-2 text-dark">
+              <p class="smallText"><span class="saut"><span class="bold">Date :</span>  23/07/2018</span>
+                <span class="saut"><span class="bold">Technique :</span> illustration vectorielle</span>
+                <span class="saut"><span class="bold">Format :</span> 300px x 300px</span>
+                <span class="saut"><span class="bold">Commentaire :</span> Campagne de sensibilisation à la santé mentale menée par l'UNAFAM.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-4 text-center">
+        <div class="container d-flex justify-content-center align-items-center">
+          <img src="assets/img2/5-300.jpg" alt="illustration vectorielle Culture Trip" class="image">
+          <div class="overlay d-flex justify-content-center align-items-center">
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalCultureTrip">
+              En savoir plus
+            </button>
+          </div>
+        </div>
+        <h2 class="my-4">CULTURE TRIP</h2>
+
+      <div class="modal fade" id="modalCultureTrip" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title text-dark" id="exampleModalLabel">Culture Trip</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body d-flex">
+              <div class="d-inline p-2">
+                <img src="assets/img2/5-300-hover.jpg">
+              </div>
+              <div class="d-inline p-2 text-dark">
+                <p class="smallText"><span class="saut"><span class="bold">Date :</span>  05/08/2018</span>
+                  <span class="saut"><span class="bold">Technique :</span> illustration vectorielle</span>
+                  <span class="saut"><span class="bold">Format :</span> 300px x 300px</span>
+                  <span class="saut"><span class="bold">Commentaire :</span> Campagne publicitaire pour une agence de voyage proposant des colonies de vacances à l'étranger pour les jeunes de 16 à 21 ans.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 text-center">
+      <div class="container d-flex justify-content-center align-items-center">
+        <img src="assets/img2/6-300.jpg" alt="illustration vectorielle Oriental Style" class="image">
+        <div class="overlay d-flex justify-content-center align-items-center">
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalOrientalStyle">
+            En savoir plus
+          </button>
+        </div>
+      </div>
+      <h2 class="my-4">ORIENTAL STYLE</h2>
+
+    <div class="modal fade" id="modalOrientalStyle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-dark" id="exampleModalLabel">Oriental Style</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="d-inline p-2">
+              <img src="assets/img2/6-300-hover.jpg">
+            </div>
+            <div class="d-inline p-2 text-dark">
+              <p class="smallText"><span class="saut"><span class="bold">Date :</span>  31/09/2018</span>
+                <span class="saut"><span class="bold">Technique :</span> illustration vectorielle</span>
+                <span class="saut"><span class="bold">Format :</span> 300px x 300px</span>
+                <span class="saut"><span class="bold">Commentaire :</span> Illustration pour une carte postale de l'architecture marocaine. Souvenir de vacances.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="row px-4 mx-4">
+    <div class="col-md-4 text-center">
+      <div class="container d-flex justify-content-center align-items-center">
+        <img src="assets/img2/7-300.jpg" alt="illustration vectorielle Marathonian" class="image">
+        <div class="overlay d-flex justify-content-center align-items-center">
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalMarathonian">
+            En savoir plus
+          </button>
+        </div>
+      </div>
+      <h2 class="my-4">MARATHONIAN</h2>
+
+    <div class="modal fade" id="modalMarathonian" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-dark" id="exampleModalLabel">Marathonian</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="d-inline p-2">
+              <img src="assets/img2/7-300-hover.jpg">
+            </div>
+            <div class="d-inline p-2 text-dark">
+              <p class="smallText"><span class="saut"><span class="bold">Date :</span>  10/10/2018</span>
+                <span class="saut"><span class="bold">Technique :</span> illustration vectorielle</span>
+                <span class="saut"><span class="bold">Format :</span> 300px x 300px</span>
+                <span class="saut"><span class="bold">Commentaire :</span> Illustration d'après une photographie d'Alain Malric pour un encart publicitaire du club d'athlétisme de Tours.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-4 text-center">
+        <div class="container d-flex justify-content-center align-items-center">
+          <img src="assets/img2/8-300.jpg" alt="illustration vectorielle Fingerlakes Winter" class="image">
+          <div class="overlay d-flex justify-content-center align-items-center">
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalFingerlakesWinter">
+              En savoir plus
+            </button>
+          </div>
+        </div>
+        <h2 class="my-4">FINGERLAKES WINTER</h2>
+
+      <div class="modal fade" id="modalFingerlakesWinter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title text-dark" id="exampleModalLabel">Culture Trip</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body d-flex">
+              <div class="d-inline p-2">
+                <img src="assets/img2/8-300-hover.jpg">
+              </div>
+              <div class="d-inline p-2 text-dark">
+                <p class="smallText"><span class="saut"><span class="bold">Date :</span>  16/11/2018</span>
+                  <span class="saut"><span class="bold">Technique :</span> illustration vectorielle</span>
+                  <span class="saut"><span class="bold">Format :</span> 300px x 300px</span>
+                  <span class="saut"><span class="bold">Commentaire :</span> Insert pour canette de soda à loccasion des Jeux olympiques d’hiver de PyeongChang.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 text-center">
+      <div class="container d-flex justify-content-center align-items-center">
+        <img src="assets/img2/9-300.jpg" alt="illustration vectorielle Sunday Workout" class="image">
+        <div class="overlay d-flex justify-content-center align-items-center">
+          <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalSundayWorkout">
+            En savoir plus
+          </button>
+        </div>
+      </div>
+      <h2 class="my-4">SUNDAY WORKOUT</h2>
+
+    <div class="modal fade" id="modalSundayWorkout" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title text-dark" id="exampleModalLabel">Sunday Workout</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="d-inline p-2">
+              <img src="assets/img2/9-300-hover.jpg">
+            </div>
+            <div class="d-inline p-2 text-dark">
+              <p class="smallText"><span class="saut"><span class="bold">Date :</span>  09/12/2018</span>
+                <span class="saut"><span class="bold">Technique :</span> illustration vectorielle</span>
+                <span class="saut"><span class="bold">Format :</span> 300px x 300px</span>
+                <span class="saut"><span class="bold">Commentaire :</span> Dernière illustration de 2018 représentant une future résolution pour l'année à venir.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
 <!--===============Link Bootstrap===============-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
 </body>
 </html> 
