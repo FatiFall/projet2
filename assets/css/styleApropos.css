@@ -63,4 +63,7 @@ footer{
     {
         display: none;
     }
+    .titleOne{
+        font-size: 1.5em;
+    }
 }
