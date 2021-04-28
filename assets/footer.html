@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta description="projet2 en bootstrap">
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
      <!--===============Link Google fonts===============-->
      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -12,92 +12,198 @@
      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
      <!--===============Script fontawesome===============-->
      <script src="https://kit.fontawesome.com/d38cea82af.js" crossorigin="anonymous"></script>
-    <title>Bankno Header</title>
+     <!--===============Link Bootstrap===============-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Formulaire de contact</title>
 </head>
 <body>
-     <!--CONTACT Formulaire Grid -->
-     <form action="" method="get" class=formGrid>
-        <div class="surnameContact"> 
-            <input type="text" placeholder="Nom *" name="contact_surname" id="surnameContact">
-        </div>
-        <div class="nameContact"> 
-                <input type="text" placeholder="Prénom *" name="contact_name" id="nameContact">
-        </div>
-        <div class="objectContact">
-            <textarea name="contact_object" type="text" placeholder="Objet *" cols="30" rows="10" id="objectContact"></textarea>
-        </div>
-        <div class="telContact">
-            <input type="tel" placeholder="Téléphone" name="contact_tel" id="telContact">
-        </div>
-        <div class="mailContact">
-            <input type="mail" placeholder="Mail *" name="contact_mail" id="mailContact">
-        </div>
-        <div class="formLegend"> 
-            <p> Les champs obligatoires sont indiqués avec *</p>
-        </div>
-        <div class="buttonContact">
-            <input type="submit" value="⟶ Envoyer" class="buttonBlue">
-        </div>
-    </form>
-</section>
 
-<!--FOOTER Section Fati-->
-<footer class="bg-black">
-<!--Footer > RS-->
-<div class="RSGrid">
-    <div class="RSDribbble">
-        <a href="http://dribbble.com"target="_blank"><i class="far fa-eye"></i></a>
-        <a href="http://dribbble.com" target="_blank">Dribbble</a>
-        <a href="http://dribbble.com"target="_blank"><i class="fab fa-dribbble-square"></i></a>
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="http://facebook.com" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="http://twitter.com" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="http//instagram.com" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="http://linkedin.com" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="http://github.com" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+<!-- RSDribbble -->
+<a class="btn btn-outline-light btn-floating m-1" href="http://dribbble.com" role="button"
+><i class="fab fa-dribbble-square"></i
+></a>
+        
+
+
+
+
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Vous pouvez vous inscrire à notre newsletter</strong>
+              </p>
+            </div>
+          
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" class="form-control is-valid" pattern="[a-z0-9!#$%&'+/=?^`{|}~-]+(?:.[a-z0-9!#$%&'*+/=?^`{|}~-]+)(?:a-z0-9?.)+a-z0-9?" value="adresse email"required>
+
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                S'inscrire
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+            
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
     </div>
-    <div class="RSTwitter">
-        <a href="http://twitter.com"target="_blank"><i class="fas fa-hashtag"></i></a>
-        <a href="http://twitter.com" target="_blank">Twitter</a>
-        <a href="http://twitter.com"target="_blank"><i class="fab fa-twitter-square"></i></a>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="https://bryankan.com">Brankno</a>
     </div>
-    <div class="RSInstagram">
-        <a href="http//instagram.com"target="_blank"><i class="far fa-heart"></i></a>
-        <a href="http//instagram.com" target="_blank">Instagram</a>
-        <a href="http//instagram.com"target="_blank"><i class="fab fa-instagram-square"></i></a>
-    </div>
-    <div class="footerSeparator">
-       
-    </div>
-    <div class="RSFacebook">
-        <a href="http://facebook.com"target="_blank"><i class="far fa-thumbs-up"></i></a>
-        <a href="http://facebook.com" target="_blank">Facebook</a>
-        <a href="http://facebook.com"target="_blank"><i class="fab fa-facebook-square"></i></a>
-    </div>
-    <div class="RSLinkedin"> 
-        <a href="http://linkedin.com"target="_blank"><i class="fas fa-link"></i></a>
-        <a href="http://linkedin.com" target="_blank">Linkedin</a>
-        <a href="http://linkedin.com"target="_blank"><i class="fab fa-linkedin"></i></a>
-    </div>
-    <div class="RSBehance">
-        <a href="http://behance.com"target="_blank"><i class="fas fa-mouse-pointer"></i></a>
-        <a href="http://behance.com" target="_blank">Behance</a>
-        <a href="http://behance.com"target="_blank"><i class="fab fa-behance-square"></i></a>
-    </div>
-</div>
- <!--FOOTER > RS > Separateur horizontal -->
-<hr>
-<!--FOOTER > Menu-->
-<div class=footerMenu>
-    <div class="footerApropos"><a href="#apropos">A PROPOS</a></div>
-    <div class="footerUnivers"><a href="#univers">MON UNIVERS</a></div>
-    <div class="footerLogo"><a href="#header"><img src="assets/img/Bankno-blanc.png" alt=""></a></div>
-    <div class="footerGalerie"><a href="#galerie">GALERIE</a></div>
-    <div class="footerContact"><a href="#contact">CONTACT</a></div>
-    <div class="footerCopy"> <a href="#">© 2021 BanK.no Tous droits réservés</a></div>
-    <div class="footerMention"> <a href="#">Mentions légales</a></div>
-    <div class="footerCGU"><a href="#">CGU</a></div>
-</div>
-<!--FOOTER > Menu > Separateur horizontal -->
-<hr>
-<!--FOOTER > Menu > Scroll button -->
-<div class="scrollbar">
-    <button type="button" value="⟶" class="scrollButton"><a href="#header"> ↑</a> </button>
-</div>
-</footer>
-</body>
-</html> 
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
