@@ -1,0 +1,15 @@
+
+    header{
+        background-color: black;
+    }
+
+    footer{
+      background-color: black;
+    }
+
+    #formBryan{
+      width: 100%;
+      min-width: 0;
+      height: 100%;
+      float: left;
+    }

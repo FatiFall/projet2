@@ -1,269 +1,174 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="fr">
 <head>
+    <!--===============Meta Description===============-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="projet2 en bootstrap">
-<link rel="stylesheet" href="../projet2/assets/css/formulaire.css"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="Je suis Bryan Kany, illustrateur depuis 2010. Vous pouvez me contacter dès maintenant pour vos projets créatifs ! 06 76 87 89 00 bryankany@gmail.com">
+    <title>Bank.no - Accueil</title>
+    <!--==============Link Rel Et CSS===============-->
+    <link rel="stylesheet" href="assets/css/styleIndex.css">
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
-     <!--===============Link Google fonts===============-->
-     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-     <!--===============Script fontawesome===============-->
-     <script src="https://kit.fontawesome.com/d38cea82af.js" crossorigin="anonymous"></script>
-     <!--===============Link Bootstrap===============-->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!--===============Link Google fonts===============-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--===============Script fontawesome===============-->
+    <script src="https://kit.fontawesome.com/d38cea82af.js" crossorigin="anonymous"></script>
 </head>
-<body>
-
-  <header>
-    <nav class="navbar navbar-dark navbar-expand-md justify-content-between">
-      <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0 ">
-              <ul class="navbar-nav">
-                  <li class="nav-item active">
-                      <a class="nav-link pl-0 " href="#">ACCUEIL</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">À PROPOS</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">GALERIE</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">CONTACT</a>
-                  </li>
-              </ul>
-          </div>
-              <a href="#" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25 "><img src="assets/img2/Bankno-blanc.png" width="60%" ></a>
-          <div class="navbar-collapse collapse dual-nav w-50 order-2">
-              <ul class="nav navbar-nav ml-auto" >
-                  <li class="nav-item"><a class="nav-link" href="https://twitter.com/home"><i class="fab fa-twitter fa-2x"></i></a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://github.com/"><i class="fab fa-github fa-2x"></i></a></li>
-                  <li class="nav-item"><a class="nav-link" href="http://facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a></li>
-                  <li class="nav-item"><a class="nav-link" href="http://behance.net"><i class="fab fa-behance-square fa-2x"></i></a></li>
-                  <li class="nav-item"><a class="nav-link" href="http://instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
-                  <li class="nav-item"><a class="nav-link" href="http://linkedin.com/"><i class="fab fa-linkedin fa-2x"></i></a></li>
-                  <li class="nav-item"><a class="nav-link" href="http://dribbble.com/"><i class="fab fa-dribbble fa-2x"></i></a></li>    
-              </ul>
-          </div>
-      </div>
-  </nav>
-</header>
-
-<section class="container-fluid text-center text-white bg-dark p-5">
-
-  <div class="row d-flex flex-column">
-    <h3>BRYAN Kany</h3>
-    <a href="mailto:bryan@gmail.com" class="text-white">bryankan@gmail.com</a>
-    <p>06-76-87-89-00</p>
-  </div>
-
-  <div class="row">
-    <div class="col-md-4">
-
-        <form>
-          <div class="form-group text-left text-white">
-            <fieldset>
-              <div class="form-group">
-                <label for="nom">Nom</label>
-                <input type="text" class="form-control is-valid" id="nom" placeholder="Nom" value="Ba" required>
-              </div>
-
-              <div class="form-group">
-                <label for="nom">Prénom</label>
-                <input type="text" class="form-control is-valid" id="nom" placeholder="Nom" value="Khardiatou" required>
-              </div>
-
-              <div class="form-group">
-                <label for="email">Email</label>
-                <form id="form" novalidate>
-                <input type="email" class="form-control is-valid" pattern="[a-z0-9!#$%&'+/=?^`{|}~-]+(?:.[a-z0-9!#$%&'*+/=?^`{|}~-]+)(?:a-z0-9?.)+a-z0-9?" required>
-              </div>
-                  
-              <div class="form-group">
-                <label for="tel">Téléphone</label>
-                <input type="téléphone" class="form-control is-valid" id="tel" placeholder="tel" value="tel" required>
-              </div>
-      
-              <div class="form-group">
-                <label for="exampleFormControlSelect1">Comment m'avez-vous trouvé ?</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option>Sur un moteur de recherche</option>
-                  <option>Sur recommandation </option>
-                  <option>Annonce sur reseaux sociaux</option>
-                </select>
-              </div>
-      
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Objet de votre demande</label>
-                  <select multiple class="form-control" >
-                    <option >Devis gratuit</option>
-                    <option>Renseignements</option>
-                  </select>
-                </div>
-      
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Je souhaite être contacté</label>
-                  <select multiple class="form-control" >
-                    <lebel >Le plus rapidement possible</label>
-                    <option>Lundi entre 9h et 16h</option>
-                    <option >Lundi entre 18h et 19h</option>
-                    <option>Mardi entre 9h et 16h</option>
-                    <option>Mardi 18h et 19h</option>
-                    <option>Mercredi entre 9h et 16h</option>
-                    <option>Mercredi 18h et 19h/option
-                    <option>Jeudi 18h et 19h</option>
-                    <option>Jeudi à partir de 18h </option>
-                    <option>Vendredi 18h et 19h</option>
-                    <option>Vendredi 18h et 19h</option>
-                    <option> Samedi entre 9h et 15h</option>
-                  </select>
-                </div>
-      
-              <div class="form-group">
-                  <label>Message</label>
-                  <textarea class="form-control" row="12"></textarea>
-              </div>
-      
-              <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                  <label class="form-check-label" for="invalidCheck">
-                      J'ai lu et j'accepte la politique de confidentialité <a href="https://sim-phonie.ch/wp-content/themes/wp-bootstrap-starter-child/files/Protection_des_donnees_RGPD_FR.pdf">cliquez ici</a>
-                  </label>
-              </div>
-
-              <div class="form-group pt-3">
-                  <button class="btn btn-primary btnn block">Envoyé</button>
-              </div>
-        </form>
-    </div>
-  </div>
-
-
-  <div class="col-md-8 d-flex">
-    <img src="../projet2/assets/img/formulaire.png" class="flex-end" id="formBryan">
-  </div>
-</section>
-
-<footer class="container-fluid bg-dark text-center text-white">
-  <section class="row p-4 mb-4 d-flex justify-content-center">
-    <a class="btn btn-outline-light btn-floating m-1" href="http://facebook.com" role="button"
-      ><i class="fab fa-facebook-f"></i
-    ></a>
-    <a class="btn btn-outline-light btn-floating m-1" href="http://twitter.com" role="button"
-      ><i class="fab fa-twitter"></i
-    ></a>
-
-    <a class="btn btn-outline-light btn-floating m-1" href="http//instagram.com" role="button"
-      ><i class="fab fa-instagram"></i
-    ></a>
-    <a class="btn btn-outline-light btn-floating m-1" href="http://linkedin.com" role="button"
-      ><i class="fab fa-linkedin-in"></i
-    ></a>
-    <a class="btn btn-outline-light btn-floating m-1" href="http://github.com" role="button"
-      ><i class="fab fa-github"></i
-    ></a>
-    <a class="btn btn-outline-light btn-floating m-1" href="http://dribbble.com" role="button"
-    ><i class="fab fa-dribbble-square"></i
-    ></a>
-  </section>
-
-  <form class="pb-4">
-    <div class="row d-flex justify-content-center">
-      <div class="col-auto">
-        <p class="pt-2">
-          <strong>Vous pouvez vous inscrire à notre newsletter</strong>
-        </p>
-      </div>
-      
-      <div class="col-md-5 col-12">
-        <div class="form-outline form-white mb-4">
-          <input type="email" class="form-control is-valid" pattern="[a-z0-9!#$%&'+/=?^`{|}~-]+(?:.[a-z0-9!#$%&'*+/=?^`{|}~-]+)(?:a-z0-9?.)+a-z0-9?" value="adresse email"required>
+   
+    <!--===============Elodie===============-->
+    <!--===============Corps de la page===============-->
+    <body>
+    <!--===============Header Navigation===============-->
+    <header>
+    <nav class="navbar navbar-dark navbar-expand-md  justify-content-between">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0 ">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link pl-0 " href="index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="apropos.html">À PROPOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galerie.html">GALERIE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+                <a href="index.html" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25 "><img src="assets/img/Bankno-blanc.png" width="60%" ></a>
+            <div class="navbar-collapse collapse dual-nav w-50 order-2">
+                <ul class="nav navbar-nav ml-auto" >
+                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/home"><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/"><i class="fa fa-github fa-2x"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://behance.net"><i class="fa fa-behance-square fa-2x"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://linkedin.com/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://dribbble.com/"><i class="fab fa-dribbble fa-2x"></i></a></li>    
+                </ul>
+            </div>
         </div>
-      </div>
-
-      <div class="col-auto">
-        <button type="submit" class="btn btn-outline-light mb-4">
-          S'inscrire
-        </button>
-      </div>
-    </div>
-  </form>
-  
-  <section class="row">
-    <div class="col-md-4 mb-4">
-      <h5 class="text-uppercase mb-4">navigation</h5>
-
-      <ul class="list-unstyled mb-0">
-        <li>
-          <a href="file:///Applications/XAMPP/xamppfiles/htdocs/Lamanu/projet2/apropos.html" class="text-white">ACCUEIL</a>
-        </li>
-        <li>
-          <a href="file:///Applications/XAMPP/xamppfiles/htdocs/Lamanu/projet2/apropos.html" class="text-white">À PROPOS</a>
-        </li>
-        <li>
-          <a href="file:///Applications/XAMPP/xamppfiles/htdocs/Lamanu/projet2/apropos.html" class="text-white">GALERIE</a>
-        </li>
-        <li>
-          <a href="file:///Applications/XAMPP/xamppfiles/htdocs/Lamanu/projet2/index.html" class="text-white">CONTACT</a>
-        </li>
-      </ul>
-    </div>
+    </nav>
+    <!--===============Header Bannière Vidéo===============-->
+            <div id="video">
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="assets/video/videoheader.mp4" type="video/mp4">
+                </video>
+            </div>
+    <!--===============Header bannière Image===============-->
+            <div class="row">
+                <div class="col-md-6 col-sm-12 display-block-none">
+                    <img id="bryanKany" src="assets/img/headerBryan.png" style="float:left" width="70%" height="100%" min-width="0%" alt="homme">
+                </div>
+     <!--===============Header bannière Texte===============-->
+                <div class="col-md-6 pt-5 col-sm-12 text-white">
+                    <h1 class="display-2 text-center pt-5 mt-5" >Artiste Illustrateur</h1>
+                    <h2 id="bryanK" class="display-4 text-center pt-5"> Bryan Kany</h2>
+                </div>
+            </div>
+     </header>
+     <!--===============FOOTER FOOTER FOOTER===============-->
+     <footer class="container-fluid text-center text-white pt-5">
+        <section class="row p-4 mb-4 d-flex justify-content-center">
+          <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/home" role="button"><i class="fa fa-twitter fa-2x"></i></a>
       
-    <div class="col-md-4 mb-4">
-      <img src="assets/img2/Bankno-blanc.png" width="60%">
-    </div>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/" role="button"><i class="fa fa-github fa-2x"></i></a>
+      
+          <a class="btn btn-outline-light btn-floating m-1" href="http://facebook.com/" role="button"><i class="fa fa-facebook-square fa-2x"></i></a>
+      
+          <a class="btn btn-outline-light btn-floating m-1" href="http://behance.net" role="button"><i class="fa fa-behance-square fa-2x"></i></a>
+      
+          <a class="btn btn-outline-light btn-floating m-1" href="http://instagram.com/" role="button"><i class="fab fa-instagram fa-2x"></i></a>
+      
+          <a class="btn btn-outline-light btn-floating m-1" href="http://linkedin.com/" role="button"><i class="fab fa-linkedin fa-2x"></i></a>
+      
+          <a class="btn btn-outline-light btn-floating m-1" href="http://dribbble.com/" role="button"><i class="fab fa-dribbble fa-2x"></i></a>
+        </section>
+      
+        <form class="pb-4">
+          <div class="row d-flex justify-content-center">
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Vous pouvez vous inscrire à notre newsletter</strong>
+              </p>
+            </div>
+            
+            <div class="col-md-5 col-12">
+              <div class="form-outline form-white mb-4">
+                <input type="email" class="form-control is-valid" pattern="[a-z0-9!#$%&'+/=?^`{|}~-]+(?:.[a-z0-9!#$%&'*+/=?^`{|}~-]+)(?:a-z0-9?.)+a-z0-9?" value="adresse email"required>
+              </div>
+            </div>
+      
+            <div class="col-auto">
+              <button type="submit" class="btn btn-outline-light mb-4">
+                S'inscrire
+              </button>
+            </div>
+          </div>
+        </form>
+        
+        <section class="row">
+          <div class="col-md-4 mb-4">
+            <h5 class="text-uppercase mb-4">navigation</h5>
+      
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="index.html" class="text-white">ACCUEIL</a>
+              </li>
+              <li>
+                <a href="apropos.html" class="text-white">À PROPOS</a>
+              </li>
+              <li>
+                <a href="galerie.html" class="text-white">GALERIE</a>
+              </li>
+              <li>
+                <a href="contact.html" class="text-white">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+            
+          <div class="col-md-4 mb-4">
+            <a href="index.html" class="text-white"><img src="assets/img/Bankno-blanc.png" width="60%"></a>
+          </div>
+      
+          <div class="col-md-4 mb-4">
+            <h5 class="text-uppercase mb-4">contact</h5>
+      
+            <ul class="list-unstyled mb-0">
+              <li>
+                BRYAN KANY
+              </li>
+              <li>
+                <a href="mailto:bryankany@gmail.com" class="text-white">bryankany@gmail.com</a>
+              </li>
+              <li>
+                06 76 87 89 00
+              </li>
+            </ul>
+          </div>
+        </section>
+      
+        <div class="text-center p-3" id="copyright">
+          © 2021 Copyright <a class="text-white" href="#">Bank.no</a>
+        </div>
+      </footer>
+    <!--===============Header bannière Image===============-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+      </body>
+</html> 
 
-    <div class="col-md-4 mb-4">
-      <h5 class="text-uppercase mb-4">contact</h5>
-
-      <ul class="list-unstyled mb-0">
-        <li>
-          <a href="#!" class="text-white">BRYAN KANY</a>
-        </li>
-        <li>
-          <a href="#!" class="text-white">bryankan@gmail.com</a>
-        </li>
-        <li>
-          <a href="#!" class="text-white">06-00-00-00-00</a>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <div class="text-center p-3" id="copyright">
-    © 2021 Copyright
-    <a class="text-white" href="https://bryankan.com">Brankno</a>
-  </div>
-</footer>
-</body>
-
-<style>     
-  header , footer{
-      background-color: black;
-  }
-  #copyright{
-    background-color: rgb(33, 33, 33);
-  }
-  #formBryan{
-    width: 100%;
-    min-width: 0;
-    height: 100%;
-    float: left;
-  }
- </style>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-
-
-
+    <!--===============FIN Intégration Elodie===============-->
+      

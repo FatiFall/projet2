@@ -1,0 +1,66 @@
+/* -------------------CSS PAGE A PROPOS- Elodie- ---------------------------*/
+/* -------------------CSS INSPIRATION UNIVERS COMPETENCES-------------------*/
+/*-----------Header */
+header{
+    background-color: black;
+}
+/*-----------Section TITRE -------*/
+.titleIntro{
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 2em;
+    color: #2D2D2E;
+}
+.titleIntroB{
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #de194e;
+}
+.title{
+    font-size: 2em;
+    font-family: 'Lato';
+    font-weight: 600;
+}
+.titleOne{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.5em;
+    margin-top: 5%;
+}
+h1{
+    font-weight: 700;
+    font-size: 3.5em;
+    font-family:'Raleway',sans-serif;
+}
+/*----------------Section paragraphe--------------------------*/
+.univers{
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: 'Lato';
+   }
+.inspiration {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: 'Lato';
+    color: #2D2D2E;
+    padding-bottom: 10%;
+}
+p{
+    font-size: 22px;
+}
+
+/*----------------Section footer--------------------------*/
+
+footer{
+    background-color: black;
+  }
+/*------------MEDIA QUERIES------------*/
+@media (max-width: 600px) {
+    #bryanKany
+    {
+        display: none;
+    }
+}
